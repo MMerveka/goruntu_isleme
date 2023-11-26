@@ -2,10 +2,9 @@
 import cv2
 import numpy as np
 
-# Görüntüyü yükle
 image = cv2.imread("pirinc.jpg")
 
-# Görüntüyü griye dönüştür
+
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Eşik değerini belirle
